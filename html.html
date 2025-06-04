@@ -1,0 +1,90 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Instalasi CCTV Kilat - Jasa Profesional CCTV</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a81368914c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">CCTV Kilat</a>
+      <ul class="nav-links">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#services">Layanan</a></li>
+        <li><a href="#gallery">Galeri</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+    <div class="container hero-content">
+      <h1>Instalasi CCTV Kilat</h1>
+      <p>Jasa pemasangan CCTV profesional, cepat, dan terpercaya di Dumai.</p>
+      <a href="#contact" class="btn-primary">Hubungi Kami</a>
+    </div>
+  </header>
+
+  <section id="services" class="services-section container">
+    <h2>Layanan Kami</h2>
+    <div class="services-cards">
+      <div class="card">
+        <i class="fas fa-video"></i>
+        <h3>Paket CCTV 2 Kamera</h3>
+        <p>Harga mulai Rp1.500.000 sudah termasuk instalasi.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-video"></i>
+        <h3>Paket CCTV 4 Kamera</h3>
+        <p>Harga mulai Rp2.500.000 dengan garansi dan service.</p>
+      </div>
+      <div class="card">
+        <i class="fas fa-tools"></i>
+        <h3>Maintenance CCTV</h3>
+        <p>Perawatan dan perbaikan CCTV agar tetap optimal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section container">
+    <h2>Galeri Kami</h2>
+    <div class="gallery-grid">
+      <img src="foto1.jpeg" alt="CCTV 1" />
+      <img src="foto2.jpeg" alt="CCTV 2" />
+      <img src="foto3.jpeg" alt="CCTV 3" />
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section container">
+    <h2>Hubungi Kami</h2>
+    <p>Untuk konsultasi dan pemasangan CCTV, silakan hubungi kami melalui:</p>
+    <div class="contact-buttons">
+      <a href="https://wa.me/6285374030317" target="_blank" class="btn wa"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+      <a href="https://instagram.com/instalasicctvkilat" target="_blank" class="btn ig"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://shopee.co.id/tokotest" target="_blank" class="btn shopee"><i class="fas fa-shopping-cart"></i> Shopee</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Instalasi CCTV Kilat. Semua hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle menu for mobile
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
